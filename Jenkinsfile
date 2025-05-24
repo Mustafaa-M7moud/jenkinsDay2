@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("first message"){
             steps{
-                echo "Hello Jenkins from main"
+                echo "Hello Jenkins from main, triggerd by webhook"
             }
         }
     }
